@@ -1,0 +1,27 @@
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: #242424; /* Set table background to #242424 */
+    color: #E3E3E3; /* Set text color to #E3E3E3 */
+}
+
+.employee-table th, .employee-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    color: #E3E3E3; /* Ensure text color is #E3E3E3 */
+}
+
+.employee-table th {
+    background-color: #3a3a3a; /* Set header background to a darker shade */
+}
+
+.employee-table tr:nth-child(even) {
+    background-color: #2c2c2c; /* Set even row background to a slightly lighter shade */
+}
+
+.employee-table tr:hover {
+    background-color: #3a3a3a; /* Set hover background to a darker shade */
+}
